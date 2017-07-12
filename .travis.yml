@@ -5,3 +5,8 @@ scala:
 jdk:
 - oraclejdk8
 install: true
+
+deploy:
+  provider: heroku
+  api_key: ${HEROKU_API}
+  app: playherokutravis
