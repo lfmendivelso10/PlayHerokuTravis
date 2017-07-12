@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/PlayHerokuTravis -Dhttp.port=$PORT
+web: target/universal/stage/bin/playherokutravis -Dhttp.port=$PORT
